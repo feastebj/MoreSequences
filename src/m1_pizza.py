@@ -80,6 +80,7 @@ def run_test_generate_points_on_circle():
     print('Expected:', expected)
     print('Actual:  ', answer)
 
+
 def generate_points_on_circle(circle_for_points, number_of_points_to_generate):
     """
     What comes in:
@@ -235,6 +236,7 @@ def draw_points_on_circle(window, circle, number_of_points, color):
     rg.Line(rg.Point(points[0]))
     rg.Line.attach_to(points)
     rg.Line.color = color
+
     # ------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
     #   Note that you should write its TEST function first (above).
